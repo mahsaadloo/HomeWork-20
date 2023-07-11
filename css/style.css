@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('./bootstrap.css');
+@import url('./_reset.css');
+@import url('./_utilities.css');
+
+:root{
+    --bg-green-color: #20DC49;
+    --bg-main-color: #F0F2F5;
+    --text-color-grey: #7E7E7E;
+    --text-input-grey: #5A5A5A;
+    --text-color-green: #20DC49;
+}
+
+.right-side{
+    background-image: url('../images/main-img.png');
+    height: 90rem;
+}
+
+.energy-button{
+    border: none;
+    border-radius: 5rem;
+    background-color: var(--bg-green-color);
+    padding: .5rem 3rem .5rem 1rem;
+    margin-top: 30rem;
+    margin-left: 8rem;
+}
+
+.cap-sec{
+    border: none;
+    background-image: url('../images/blur.png');
+    height: 15.8rem;
+    width: 24rem;
+    padding: 2rem;
+    margin-left: 8rem;
+    color: white;
+}
+
+.left-sec{
+    background-color: var(--bg-main-color);
+}
+
+span a{
+    color: var(--text-color-green);
+}
+
+.fig-cap{
+    color: var(--text-color-grey);
+}
+
+.first-button{
+    border: .1rem solid #20DC49;
+    border-radius: 1rem;
+    padding: 1rem 4rem .4rem 4rem;
+    background-color: white;
+}
+
+.first-button-1{
+    border: .1rem solid #DEDEDE;
+    border-radius: 1rem;
+    padding: 1rem 3rem .4rem 3rem;
+    background-color: white;
+}
+
+span[class="line-sec"]{
+    border-bottom: .1rem solid #d5d5d5;
+    width: 13rem;
+}
+
+input[name="input-gp"]{
+    border: .1rem solid #D9D9D9;
+    border-radius: 1.5rem;
+    padding: 2.5rem 20rem 2.5rem 3rem;
+    margin-left: -2.5rem;
+}
+
+input[name="input-gp-hidepass"]{
+    border: .1rem solid #D9D9D9;
+    border-right: none;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 2.5rem 15rem 2.5rem 3rem;
+    margin-left: -2.5rem;
+}
+
+.hide-pass{
+    border: .1rem solid #D9D9D9;
+    border-left: none;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding: 2rem 2rem 2rem 1rem;
+    background-color: white;
+}
+
+.last-button{
+    background-color: var(--bg-green-color);
+    border: none;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.last-prag{
+    color: var(--text-color-grey);
+}
